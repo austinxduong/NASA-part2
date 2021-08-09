@@ -4,7 +4,7 @@ CREATE TABLE planet (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name TEXT NOT NULL,
     namesake TEXT,
-    lengthOfYear TEXT,
+    length_of_year TEXT,
     moons: TEXT,
-    zodiacs: TEXT
+    associated_zodiac: TEXT
 )
