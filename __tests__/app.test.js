@@ -4,6 +4,7 @@ import request from 'supertest';
 import app from '../lib/app.js';
 
 // import Planet from '../lib/models/Planet.js';
+// remember, numerical values are not be wrapped in strings
 
 
 describe('Planet routes', () => {
@@ -16,8 +17,9 @@ describe('Planet routes', () => {
       .post('/api/v1/planet')
       .send({
         name: 'Venus',
-        moons: '0',
+        moons: 0,
         namesake: 'Roman Goddess of Love',
+        atmosphere: 'Hot',
         length_of_year: '225 Earth Days',
         associated_zodiac: 'Taurus, Libra'
       });
@@ -25,8 +27,9 @@ describe('Planet routes', () => {
     expect(res.body).toEqual({
       id: '1',
       name: 'Venus',
-      moons: '0',
+      moons: 0,
       namesake: 'Roman Goddess of Love',
+      atmosphere: 'Hot',
       length_of_year: '225 Earth Days',
       associated_zodiac: 'Taurus, Libra'
     });
