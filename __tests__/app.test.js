@@ -20,6 +20,7 @@ describe('Planet routes', () => {
         moons: 0,
         namesake: 'Roman Goddess of Love',
         atmosphere: 'Hot',
+        planet_type: 'Terrestrial',
         length_of_year: '225 Earth Days',
         associated_zodiac: 'Taurus, Libra'
       });
@@ -30,6 +31,7 @@ describe('Planet routes', () => {
       moons: 0,
       namesake: 'Roman Goddess of Love',
       atmosphere: 'Hot',
+      planet_type: 'Terrestrial',
       length_of_year: '225 Earth Days',
       associated_zodiac: 'Taurus, Libra'
     });
