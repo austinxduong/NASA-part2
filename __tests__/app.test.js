@@ -16,19 +16,19 @@ describe('Planet routes', () => {
       .post('/api/v1/planet')
       .send({
         name: 'Venus',
-        namesake: 'Roman Goddess of Love',
-        lengthOfYear: '225 Earth Days',
         moons: '0',
-        associatedZodiac: 'Taurus, Libra'
+        namesake: 'Roman Goddess of Love',
+        length_of_year: '225 Earth Days',
+        associated_zodiac: 'Taurus, Libra'
       });
 
     expect(res.body).toEqual({
       id: '1',
       name: 'Venus',
-      namesake: 'Roman Goddess of Love',
-      lengthOfYear: '225 Earth Days',
       moons: '0',
-      associatedZodiac: 'Taurus, Libra'
+      namesake: 'Roman Goddess of Love',
+      length_of_year: '225 Earth Days',
+      associated_zodiac: 'Taurus, Libra'
     });
   });
 });
