@@ -12,7 +12,7 @@ export const planets = [
   {
     name: 'Jupiter',
     moons: 53,
-    namesake: 'Known to the Ancients',
+    namesake: 'King of the Ancients GOds',
     atmosphere: 'Gassed Up',
     planet_type: 'Gas Giant',
     length_of_year: '12 Earth Years',
