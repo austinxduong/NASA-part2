@@ -74,6 +74,24 @@ export const planets = [
     planet_type: 'Dwarf',
     length_of_year: '5 Earth years',
     associated_zodiac: 'still unknown'
+  },
+  {
+    name: 'Makemake',
+    moons: 0,
+    namesake: 'God of Fertility',
+    atmosphere: 'Nitrogen',
+    planet_type: 'Dwarf',
+    length_of_year: '305 Earth Years',
+    associated_zodiac: 'still unknown'
+  }
+  {
+    name: 'Eris',
+    moons: 0,
+    namesake: 'Discord & Strife',
+    atmosphere: 'Freezing',
+    planet_type: 'Dwarf',
+    length_of_year: '557 Earth Years',
+    associated_zodiac: 'still unknown'
   }
     
 
