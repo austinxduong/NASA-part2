@@ -14,7 +14,7 @@ describe('Planet routes', () => {
 
   it('creates a planet via. POST', async () => {
     const res = await request(app)
-      .post('/api/v1/planet')
+      .post('/api/v1/planets')
       .send({
         name: 'Venus',
         moons: 0,
