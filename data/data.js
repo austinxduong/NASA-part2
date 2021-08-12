@@ -2,6 +2,7 @@ export const planets = [
   {
     name: 'Venus',
     moons: 0,
+    image: 'venus.jpg',
     namesake: 'Roman Goddess of Love',
     atmosphere: 'Hot',
     planet_type: 'Gas Giant',
@@ -12,6 +13,7 @@ export const planets = [
   {
     name: 'Jupiter',
     moons: 53,
+    image: 'jupiter.jpg',
     namesake: 'King of the Ancients GOds',
     atmosphere: 'Gassed Up',
     planet_type: 'Gas Giant',
@@ -21,6 +23,7 @@ export const planets = [
   {
     name: 'Neptune',
     moons: 14,
+    image: 'neptune.jpg',
     namesake: 'Roman God of Sea',
     atmosphere: 'Windy',
     planet_type: 'Ice Giant',
@@ -30,6 +33,7 @@ export const planets = [
   {
     name: 'Mars',
     moons: 2,
+    image: 'mars.jpg',
     namesake: 'Roman God of War',
     atmosphere: 'Hot',
     planet_type: 'Terrestrial',
@@ -39,6 +43,7 @@ export const planets = [
   {
     name: 'Saturn',
     moons: 53,
+    image: 'saturn.jpg',
     namesake: 'Roman God of Agriculture & Wealth',
     atmosphere: 'Gassed Up',
     planet_type: 'Gas Giant',
@@ -49,6 +54,7 @@ export const planets = [
   {
     name: 'Pluto',
     moons: 5,
+    image: 'pluto.jpg',
     namesake: 'Roman God of The Underworld',
     atmosphere: 'Icy',
     planet_type: 'Dwarf',
@@ -59,6 +65,7 @@ export const planets = [
   {
     name: 'Mercury',
     moons: 0,
+    image: 'mercury.jpg',
     namesake: 'Most Swift of Ancient Roman Gods',
     atmosphere: 'Airy',
     planet_type: 'Terrestrial',
@@ -69,6 +76,7 @@ export const planets = [
 
     name: 'Ceres',
     moons: 0,
+    image: 'ceres.jpg',
     namesake: 'Roman Goddess of Corn & Harvests',
     atmosphere: 'Vaporizing',
     planet_type: 'Dwarf',
@@ -78,6 +86,7 @@ export const planets = [
   {
     name: 'Makemake',
     moons: 0,
+    image: 'makemake.jpg',
     namesake: 'God of Fertility',
     atmosphere: 'Nitrogen',
     planet_type: 'Dwarf',
@@ -87,6 +96,7 @@ export const planets = [
   {
     name: 'Eris',
     moons: 0,
+    image: 'eris.jpg',
     namesake: 'Discord & Strife',
     atmosphere: 'Freezing',
     planet_type: 'Dwarf',

@@ -19,6 +19,7 @@ describe('Planet routes', () => {
       .send({
         name: 'Venus',
         moons: 0,
+        image: 'venus.jpg',
         namesake: 'Roman Goddess of Love',
         atmosphere: 'Hot',
         planet_type: 'Terrestrial',
@@ -30,6 +31,7 @@ describe('Planet routes', () => {
       id: '1',
       name: 'Venus',
       moons: 0,
+      image: 'venus.jpg',
       namesake: 'Roman Goddess of Love',
       atmosphere: 'Hot',
       planet_type: 'Terrestrial',
