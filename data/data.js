@@ -9,7 +9,6 @@ export const planets = [
     length_of_year: '225 Earth Days',
     associated_zodiac: 'Taurus, Libra'
   },
-
   {
     name: 'Jupiter',
     moons: 53,
