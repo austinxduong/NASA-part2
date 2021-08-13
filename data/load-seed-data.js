@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable max-len */
 import client from '../lib/client.js';
 import { planets } from './data.js';
 
@@ -15,7 +17,7 @@ async function run() {
       })
             
     );
-  } catch (error) {
+  } catch(error) {
     console.error(error);
   }
   finally {

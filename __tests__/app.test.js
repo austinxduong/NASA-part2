@@ -2,7 +2,7 @@ import pool from '../lib/utils/pool.js';
 import setup from '../data/setup.js';
 import request from 'supertest';
 import app from '../lib/app.js';
-import Planet from '../lib/models/Planet.js';
+// import Planet from '../lib/models/Planet.js';
 
 // import Planet from '../lib/models/Planet.js';
 // remember, numerical values are not be wrapped in strings
