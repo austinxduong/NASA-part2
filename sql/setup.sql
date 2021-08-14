@@ -7,7 +7,5 @@ CREATE TABLE planets (
     image TEXT NOT NULL,
     namesake TEXT NOT NULL,
     atmosphere TEXT NOT NULL,
-    planet_type TEXT NOT NULL,
-    length_of_year TEXT NOT NULL,
-    associated_zodiac TEXT NOT NULL
+    planet_type TEXT NOT NULL
 )

@@ -23,8 +23,6 @@ describe('Planet routes', () => {
         namesake: 'Roman Goddess of Love',
         atmosphere: 'Hot',
         planetType: 'Terrestrial',
-        lengthOfYear: '225 Earth Days',
-        associatedZodiac: 'Taurus, Libra'
       });
 
     expect(res.body).toEqual({
@@ -35,8 +33,6 @@ describe('Planet routes', () => {
       namesake: 'Roman Goddess of Love',
       atmosphere: 'Hot',
       planetType: 'Terrestrial',
-      lengthOfYear: '225 Earth Days',
-      associatedZodiac: 'Taurus, Libra'
     });
   });
 });
