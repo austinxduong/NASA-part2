@@ -88,6 +88,24 @@ describe('Planet routes', () => {
 
   });
 
+  it('updates/edits a planet by id', async () => {
+    const saturn = await Planet.insert({
+      name: 'Saturn',
+      moons: 53,
+      image: 'saturn.jpg',
+      namesake: 'Roman God of Agriculture & Wealth',
+      atmosphere: 'Gassed Up',
+      planetType: 'Gas Giant',
+    });
+
+    saturn.image = 'idk.jpg';
+
+    const res = await request(app).put(`/api/v1/planets/${saturn.id}`)
+      .send(saturn);
+    
+    expect(res.body).toEqual(saturn);
+  });
+
 });
 
 
