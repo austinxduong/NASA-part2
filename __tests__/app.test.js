@@ -23,8 +23,6 @@ describe('Planet routes', () => {
         namesake: 'Roman Goddess of Love',
         atmosphere: 'Hot',
         planetType: 'Terrestrial',
-        lengthOfYear: '225 Earth Days',
-        associatedZodiac: 'Taurus, Libra',
       });
 
     expect(res.body).toEqual({
@@ -35,8 +33,6 @@ describe('Planet routes', () => {
       namesake: 'Roman Goddess of Love',
       atmosphere: 'Hot',
       planetType: 'Terrestrial',
-      lengthOfYear: '225 Earth Days',
-      associatedZodiac: 'Taurus, Libra',
     });
   });
 
@@ -49,8 +45,6 @@ describe('Planet routes', () => {
       namesake: 'Roman Goddess of Love',
       atmosphere: 'Hot',
       planetType: 'Terrestrial',
-      lengthOfYear: '225 Earth Days',
-      associatedZodiac: 'Taurus, Libra',
     });
 
     const test2 = await Planet.insert({
@@ -60,8 +54,6 @@ describe('Planet routes', () => {
       namesake: 'King of the Ancients GOds',
       atmosphere: 'Gassed Up',
       planetType: 'Gas Giant',
-      lengthOfYear: '12 Earth Years',
-      associatedZodiac: 'Saggitarius, Pisces',
     });
 
     const test3 = await Planet.insert({
@@ -71,8 +63,6 @@ describe('Planet routes', () => {
       namesake: 'Most Swift of Ancient Roman Gods',
       atmosphere: 'Airy',
       planetType: 'Terrestrial',
-      lengthOfYear: '88 Earth Days',
-      associatedZodiac: 'Virgo, Gemini',
     });
 
     const res = await request(app)
@@ -90,8 +80,6 @@ describe('Planet routes', () => {
       namesake: 'Roman God of Agriculture & Wealth',
       atmosphere: 'Gassed Up',
       planetType: 'Gas Giant',
-      lengthOfYear: '29 Earth years',
-      associatedZodiac: 'Capricorn'
     });
 
     const res = await request(app).get(`/api/v1/planets/${saturn.id}`);

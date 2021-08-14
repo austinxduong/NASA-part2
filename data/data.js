@@ -6,8 +6,6 @@ export const planets = [
     namesake: 'Roman Goddess of Love',
     atmosphere: 'Hot',
     planetType: 'Gas Giant',
-    lengthOfYear: '225 Earth Days',
-    associatedZodiac: 'Taurus, Libra',
   },
   {
     name: 'Jupiter',
@@ -16,8 +14,6 @@ export const planets = [
     namesake: 'King of the Ancients GOds',
     atmosphere: 'Gassed Up',
     planetType: 'Gas Giant',
-    lengthOfYear: '12 Earth Years',
-    associatedZodiac: 'Saggitarius, Pisces',
   },
   {
     name: 'Neptune',
@@ -26,8 +22,6 @@ export const planets = [
     namesake: 'Roman God of Sea',
     atmosphere: 'Windy',
     planetType: 'Ice Giant',
-    lengthOfYear: '165 Earth Years',
-    associatedZodiac: 'Pisces',
   },
   {
     name: 'Mars',
@@ -36,8 +30,6 @@ export const planets = [
     namesake: 'Roman God of War',
     atmosphere: 'Hot',
     planetType: 'Terrestrial',
-    lengthOfYear: '687 Earth Days',
-    associatedZodiac: 'Aries, Scorpio'
   },
   {
     name: 'Saturn',
@@ -46,8 +38,6 @@ export const planets = [
     namesake: 'Roman God of Agriculture & Wealth',
     atmosphere: 'Gassed Up',
     planetType: 'Gas Giant',
-    lengthOfYear: '29 Earth years',
-    associatedZodiac: 'Capricorn'
   },
   {
     name: 'Pluto',
@@ -56,8 +46,6 @@ export const planets = [
     namesake: 'Roman God of The Underworld',
     atmosphere: 'Icy',
     planetType: 'Dwarf',
-    lengthOfYear: '248 Earth Years',
-    associatedZodiac: 'Scorpio',
   },
   {
     name: 'Mercury',
@@ -66,8 +54,6 @@ export const planets = [
     namesake: 'Most Swift of Ancient Roman Gods',
     atmosphere: 'Airy',
     planetType: 'Terrestrial',
-    lengthOfYear: '88 Earth Days',
-    associatedZodiac: 'Virgo, Gemini',
   },
   {
 
@@ -77,8 +63,6 @@ export const planets = [
     namesake: 'Roman Goddess of Corn & Harvests',
     atmosphere: 'Vaporizing',
     planetType: 'Dwarf',
-    lengthOfYear: '5 Earth years',
-    associatedZodiac: 'still unknown',
   },
   {
     name: 'Makemake',
@@ -87,8 +71,6 @@ export const planets = [
     namesake: 'God of Fertility',
     atmosphere: 'Nitrogen',
     planetType: 'Dwarf',
-    lengthOfYear: '305 Earth Years',
-    associatedZodiac: 'still unknown',
   },
   {
     name: 'Eris',
@@ -97,8 +79,6 @@ export const planets = [
     namesake: 'Discord & Strife',
     atmosphere: 'Freezing',
     planetType: 'Dwarf',
-    lengthOfYear: '557 Earth Years',
-    associatedZodiac: 'still unknown',
   }
 ];
 
