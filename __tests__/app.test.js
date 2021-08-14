@@ -41,19 +41,28 @@ describe('Planet routes', () => {
     const test1 = await Planet.insert({
       name: 'Venus',
       moons: 0,
-      image: 'venus.jpg'
+      image: 'venus.jpg',
+      namesake: 'Roman Goddess of Love',
+      atmosphere: 'Hot',
+      planetType: 'Terrestrial',
     });
 
     const test2 = await Planet.insert({
       name: 'Jupiter',
       moons: 53,
-      image: 'jupiter.jpg'
+      image: 'jupiter.jpg',
+      namesake: 'King of the Ancients GOds',
+      atmosphere: 'Gassed Up',
+      planetType: 'Gas Giant',
     });
 
     const test3 = await Planet.insert({
       name: 'Mercury',
       moons: 0,
-      image: 'mercury.jpg'
+      image: 'mercury.jpg',
+      namesake: 'Most Swift of Ancient Roman Gods',
+      atmosphere: 'Airy',
+      planetType: 'Terrestrial',
     });
 
     const res = await request(app)
