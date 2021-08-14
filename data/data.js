@@ -5,7 +5,7 @@ export const planets = [
     image: 'venus.jpg',
     namesake: 'Roman Goddess of Love',
     atmosphere: 'Hot',
-    planetType: 'Gas Giant'
+    planetType: 'Gas Giant',
   },
   {
     name: 'Jupiter',
@@ -13,7 +13,7 @@ export const planets = [
     image: 'jupiter.jpg',
     namesake: 'King of the Ancients GOds',
     atmosphere: 'Gassed Up',
-    planetType: 'Gas Giant'
+    planetType: 'Gas Giant',
   },
   {
     name: 'Neptune',
@@ -21,7 +21,7 @@ export const planets = [
     image: 'neptune.jpg',
     namesake: 'Roman God of Sea',
     atmosphere: 'Windy',
-    planetType: 'Ice Giant'
+    planetType: 'Ice Giant',
   },
   {
     name: 'Mars',
@@ -29,7 +29,7 @@ export const planets = [
     image: 'mars.jpg',
     namesake: 'Roman God of War',
     atmosphere: 'Hot',
-    planetType: 'Terrestrial'
+    planetType: 'Terrestrial',
   },
   {
     name: 'Saturn',
@@ -37,7 +37,7 @@ export const planets = [
     image: 'saturn.jpg',
     namesake: 'Roman God of Agriculture & Wealth',
     atmosphere: 'Gassed Up',
-    planetType: 'Gas Giant'
+    planetType: 'Gas Giant',
   },
   {
     name: 'Pluto',
@@ -45,7 +45,7 @@ export const planets = [
     image: 'pluto.jpg',
     namesake: 'Roman God of The Underworld',
     atmosphere: 'Icy',
-    planetType: 'Dwarf'
+    planetType: 'Dwarf',
   },
   {
     name: 'Mercury',
@@ -53,7 +53,7 @@ export const planets = [
     image: 'mercury.jpg',
     namesake: 'Most Swift of Ancient Roman Gods',
     atmosphere: 'Airy',
-    planetType: 'Terrestrial'
+    planetType: 'Terrestrial',
   },
   {
 
@@ -62,7 +62,7 @@ export const planets = [
     image: 'ceres.jpg',
     namesake: 'Roman Goddess of Corn & Harvests',
     atmosphere: 'Vaporizing',
-    planetType: 'Dwarf'
+    planetType: 'Dwarf',
   },
   {
     name: 'Makemake',
@@ -70,7 +70,7 @@ export const planets = [
     image: 'makemake.jpg',
     namesake: 'God of Fertility',
     atmosphere: 'Nitrogen',
-    planetType: 'Dwarf'
+    planetType: 'Dwarf',
   },
   {
     name: 'Eris',
@@ -78,7 +78,7 @@ export const planets = [
     image: 'eris.jpg',
     namesake: 'Discord & Strife',
     atmosphere: 'Freezing',
-    planetType: 'Dwarf'
+    planetType: 'Dwarf',
   }
 ];
 
