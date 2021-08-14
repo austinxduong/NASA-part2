@@ -22,9 +22,9 @@ describe('Planet routes', () => {
         image: 'venus.jpg',
         namesake: 'Roman Goddess of Love',
         atmosphere: 'Hot',
-        planet_type: 'Terrestrial',
-        length_of_year: '225 Earth Days',
-        associated_zodiac: 'Taurus, Libra'
+        planetType: 'Terrestrial',
+        lengthOfYear: '225 Earth Days',
+        associatedZodiac: 'Taurus, Libra'
       });
 
     expect(res.body).toEqual({
@@ -34,9 +34,9 @@ describe('Planet routes', () => {
       image: 'venus.jpg',
       namesake: 'Roman Goddess of Love',
       atmosphere: 'Hot',
-      planet_type: 'Terrestrial',
-      length_of_year: '225 Earth Days',
-      associated_zodiac: 'Taurus, Libra'
+      planetType: 'Terrestrial',
+      lengthOfYear: '225 Earth Days',
+      associatedZodiac: 'Taurus, Libra'
     });
   });
 });

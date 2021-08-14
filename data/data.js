@@ -5,9 +5,9 @@ export const planets = [
     image: 'venus.jpg',
     namesake: 'Roman Goddess of Love',
     atmosphere: 'Hot',
-    planet_type: 'Gas Giant',
-    length_of_year: '225 Earth Days',
-    associated_zodiac: 'Taurus, Libra'
+    planetType: 'Gas Giant',
+    lengthOfYear: '225 Earth Days',
+    associatedZodiac: 'Taurus, Libra'
   },
   {
     name: 'Jupiter',
@@ -15,9 +15,9 @@ export const planets = [
     image: 'jupiter.jpg',
     namesake: 'King of the Ancients GOds',
     atmosphere: 'Gassed Up',
-    planet_type: 'Gas Giant',
-    length_of_year: '12 Earth Years',
-    associated_zodiac: 'Saggitarius, Pisces'
+    planetType: 'Gas Giant',
+    lengthOfYear: '12 Earth Years',
+    associatedZodiac: 'Saggitarius, Pisces'
   },
   {
     name: 'Neptune',
@@ -25,9 +25,9 @@ export const planets = [
     image: 'neptune.jpg',
     namesake: 'Roman God of Sea',
     atmosphere: 'Windy',
-    planet_type: 'Ice Giant',
-    length_of_year: '165 Earth Years',
-    associated_zodiac: 'Pisces'
+    planetType: 'Ice Giant',
+    lengthOfYear: '165 Earth Years',
+    associatedZodiac: 'Pisces'
   },
   {
     name: 'Mars',
@@ -35,9 +35,9 @@ export const planets = [
     image: 'mars.jpg',
     namesake: 'Roman God of War',
     atmosphere: 'Hot',
-    planet_type: 'Terrestrial',
-    length_of_year: '687 Earth Days',
-    associated_zodiac: 'Aries, Scorpio'
+    planetType: 'Terrestrial',
+    lengthOfYear: '687 Earth Days',
+    associatedZodiac: 'Aries, Scorpio'
   },
   {
     name: 'Saturn',
@@ -45,9 +45,9 @@ export const planets = [
     image: 'saturn.jpg',
     namesake: 'Roman God of Agriculture & Wealth',
     atmosphere: 'Gassed Up',
-    planet_type: 'Gas Giant',
-    length_of_year: '29 Earth years',
-    associated_zodiac: 'Capricorn'
+    planetType: 'Gas Giant',
+    lengthOfYear: '29 Earth years',
+    associatedZodiac: 'Capricorn'
 
   },
   {
@@ -56,9 +56,9 @@ export const planets = [
     image: 'pluto.jpg',
     namesake: 'Roman God of The Underworld',
     atmosphere: 'Icy',
-    planet_type: 'Dwarf',
-    length_of_year: '248 Earth Years',
-    associated_zodiac: 'Scorpio'
+    planetType: 'Dwarf',
+    lengthOfYear: '248 Earth Years',
+    associatedZodiac: 'Scorpio'
 
   },
   {
@@ -67,9 +67,9 @@ export const planets = [
     image: 'mercury.jpg',
     namesake: 'Most Swift of Ancient Roman Gods',
     atmosphere: 'Airy',
-    planet_type: 'Terrestrial',
-    length_of_year: '88 Earth Days',
-    associated_zodiac: 'Virgo, Gemini'
+    planetType: 'Terrestrial',
+    lengthOfYear: '88 Earth Days',
+    associatedZodiac: 'Virgo, Gemini'
   },
   {
 
@@ -78,9 +78,9 @@ export const planets = [
     image: 'ceres.jpg',
     namesake: 'Roman Goddess of Corn & Harvests',
     atmosphere: 'Vaporizing',
-    planet_type: 'Dwarf',
-    length_of_year: '5 Earth years',
-    associated_zodiac: 'still unknown'
+    planetType: 'Dwarf',
+    lengthOfYear: '5 Earth years',
+    associatedZodiac: 'still unknown'
   },
   {
     name: 'Makemake',
@@ -88,9 +88,9 @@ export const planets = [
     image: 'makemake.jpg',
     namesake: 'God of Fertility',
     atmosphere: 'Nitrogen',
-    planet_type: 'Dwarf',
-    length_of_year: '305 Earth Years',
-    associated_zodiac: 'still unknown'
+    planetType: 'Dwarf',
+    lengthOfYear: '305 Earth Years',
+    associatedZodiac: 'still unknown'
   },
   {
     name: 'Eris',
@@ -98,11 +98,11 @@ export const planets = [
     image: 'eris.jpg',
     namesake: 'Discord & Strife',
     atmosphere: 'Freezing',
-    planet_type: 'Dwarf',
-    length_of_year: '557 Earth Years',
-    associated_zodiac: 'still unknown'
+    planetType: 'Dwarf',
+    lengthOfYear: '557 Earth Years',
+    associatedZodiac: 'still unknown'
   }
-    
-
 ];
+
+export default planets;
 
