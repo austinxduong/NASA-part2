@@ -106,11 +106,24 @@ describe('Planet routes', () => {
     expect(res.body).toEqual(saturn);
   });
 
+  it('deletes a planet by id via .DELETE', async () => {
+    const saturn2 = await Planet.insert({
+      name: 'Saturn',
+      moons: 53,
+      image: 'saturn.jpg',
+      namesake: 'Roman God of Agriculture & Wealth',
+      atmosphere: 'Gassed Up',
+      planetType: 'Gas Giant',
+    });
+
+    const res = await request (app).delete(`/api/v1/planets/${saturn2.id}`)
+
+    expect(res.body).toEqual(saturn2);
+
+  });
+
+
 });
-
-
-
-
 
 
 
