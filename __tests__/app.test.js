@@ -36,7 +36,7 @@ describe('Planet routes', () => {
     });
   });
 
-  it('finds all planet via GET', async () => {
+  it('finds all planets via GET', async () => {
 
     const test1 = await Planet.insert({
       name: 'Venus',
@@ -71,7 +71,24 @@ describe('Planet routes', () => {
     expect(res.body).toEqual([test1, test2, test3]);
   });
 
+  it('finds a specific planet by its id', async () => {
+    const saturn = await Planet.insert({
+      name: 'Saturn',
+      moons: 53,
+      image: 'saturn.jpg',
+      namesake: 'Roman God of Agriculture & Wealth',
+      atmosphere: 'Gassed Up',
+      planetType: 'Gas Giant',
+    });
+
+    const res = await request(app).get(`/api/v1/planets/${saturn.id}`);
+
+    expect(res.body).toEqual(saturn);
+
 });
+
+});
+
 
 
 
