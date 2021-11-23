@@ -10,6 +10,7 @@
 #### Back-End Technologies:
 - Javascript
 - Node.js
+- Heroku
 - Express.js
 - PostgreSQL
-- Heroku
+- Jest/Supertest
