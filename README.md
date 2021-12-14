@@ -8,6 +8,7 @@
 ## [📸  (Netlify) Front-End: See it LIVE Here](https://nasa-galaxy.netlify.app/)
 
 #### Back-End Technologies:
+- RESTful API
 - Javascript
 - Node.js
 - Heroku
