@@ -16,8 +16,9 @@
 - PostgreSQL
 - Jest/Supertest
 
-#### Bugs Fixed:
+#### Bugs Fixed (and things I've discovered):
 
 ``` diff
 + March 30, 2022: server response blocked by CORS, because client + server have different cross-origins [resolved]
+  - this means any enduser making requests from any client to the server, should ignore CORS policy
 ```
