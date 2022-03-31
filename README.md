@@ -15,3 +15,9 @@
 - Express.js
 - PostgreSQL
 - Jest/Supertest
+
+#### Bugs Fixed:
+
+``` diff
++ March 30, 2022: server response blocked by CORS, because client + server have different cross-origins [resolved]
+```
