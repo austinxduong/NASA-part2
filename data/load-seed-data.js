@@ -20,6 +20,7 @@ async function run() {
     console.error(error);
   }
   finally {
+    console.log('seed data loaded succesfully into backend API')
     client.end();
 
   }
