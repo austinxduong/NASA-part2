@@ -25,5 +25,5 @@
 #### Bug Not Fixed:
 ``` diff 
 - July 24th, 2022: cors policy block again 😪
- - notes: send client request through proxy, and have cors applied when received by server.
+ - notes: send client request (front-end) through proxy, and have cors applied when received by server.
 ```
