@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable max-len */
 import client from '../lib/client.js';
-import { planets } from './data.js';
+import planets from './data.js';
 
 run();
 
@@ -20,7 +20,7 @@ async function run() {
     console.error(error);
   }
   finally {
-    console.log('seed data loaded succesfully into backend API')
+    console.log('seed data loaded successfully into backend API')
     client.end();
 
   }

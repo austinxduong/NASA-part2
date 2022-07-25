@@ -1,4 +1,4 @@
-export const planets = [
+const planets = [
   {
     name: 'Venus',
     moons: 0,
